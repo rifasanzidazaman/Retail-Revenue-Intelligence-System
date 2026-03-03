@@ -1,10 +1,3 @@
-Ok — here is the **full detailed one-block README** version.
-
-👉 You can **copy everything below and paste directly into GitHub README.md**.
-
----
-
-```markdown
 ## 🚀 Retail Revenue Intelligence Dashboard
 
 The **Retail Revenue Intelligence Dashboard** is an AI-powered business analytics platform designed to transform retail transaction data into meaningful business insights using advanced analytical and machine learning techniques.
@@ -150,3 +143,4 @@ https://www.linkedin.com/in/rifasanzidazaman/
 GitHub Repository:  
 https://github.com/rifasanzidazaman/Retail-Revenue-Intelligence-System
 ```
+
