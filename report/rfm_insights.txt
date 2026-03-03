@@ -1,0 +1,86 @@
+report_content = """
+Retail Revenue Intelligence System
+RFM Customer Segmentation Report
+
+Total Customers Analyzed: 5,881
+
+
+1. Customer Segment Distribution
+
+Regular Customers
+Percentage: 50.82%
+Count: 2,989 customers
+Description:
+These customers purchase occasionally and contribute moderate revenue.
+They represent the largest portion of the customer base and are strong
+candidates for upselling and cross-selling strategies.
+
+At Risk Customers
+Percentage: 24.17%
+Count: 1,422 customers
+Description:
+These customers have not purchased recently and contribute minimal revenue.
+They require re-engagement campaigns such as discounts, reminder emails,
+and targeted promotions.
+
+Loyal Customers
+Percentage: 13.79%
+Count: 811 customers
+Description:
+These customers purchase frequently and maintain consistent engagement.
+They provide stable revenue and are ideal for loyalty reward programs.
+
+VIP Customers
+Percentage: 11.20%
+Count: 659 customers
+Description:
+These are high-value customers with recent purchases, high frequency,
+and high spending. They are the most critical segment for revenue protection.
+
+
+2. Revenue Contribution by Segment
+
+VIP Customers
+Revenue Contribution: 54.12%
+Insight:
+Although they represent only 11.20% of customers, they generate more
+than half of the total revenue.
+
+Loyal Customers
+Revenue Contribution: 21.63%
+Insight:
+They contribute significant and consistent revenue.
+
+Regular Customers
+Revenue Contribution: 19.26%
+Insight:
+Large in number but moderate in contribution. Strong growth potential.
+
+At Risk Customers
+Revenue Contribution: 4.96%
+Insight:
+Low contribution and high churn probability.
+
+
+3. Key Business Insights
+
+- Revenue is highly concentrated in the VIP segment.
+- A small group of customers (11%) generates 54% of total revenue.
+- 24% of customers are at risk of churn.
+- Regular customers represent strong growth opportunity.
+- Retention strategies can significantly increase profitability.
+
+
+4. Strategic Recommendations
+
+1. Implement exclusive membership programs for VIP customers.
+2. Launch structured loyalty reward systems for Loyal customers.
+3. Design reactivation campaigns for At Risk customers.
+4. Use targeted marketing to convert Regular customers into Loyal customers.
+5. Perform quarterly RFM analysis to monitor behavioral changes.
+"""
+
+with open("reports/rfm_insights.txt", "w", encoding="utf-8") as file:
+    file.write(report_content)
+
+print("RFM Insight Report Generated Successfully.")
